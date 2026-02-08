@@ -25,16 +25,66 @@
   </header>
 
   <main class="container narrow">
+    <section class="card hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">About Dev Kanban</div>
+          <h1>Lightweight workflow boards built for clarity.</h1>
+          <p class="lead">A minimal teaching app focused on fast setup, zero infrastructure, and a clean client-only experience.</p>
+          <div class="chip-row">
+            <span class="chip">No servers</span>
+            <span class="chip">LocalStorage</span>
+            <span class="chip">HTML5 Drag &amp; Drop</span>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-value">4</div>
+            <div class="stat-label">Board Lanes</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">Client-side</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">0</div>
+            <div class="stat-label">Server Calls</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="card">
-      <h2>About</h2>
-      <p><strong>Dev Kanban</strong> is a minimal teaching app with no servers, APIs, or databases.</p>
-      <ul>
-        <li>Client-side login</li>
-        <li>LocalStorage persistence</li>
-        <li>Drag &amp; drop via HTML5 API</li>
-        <li>Assignee &amp; priority filters</li>
-      </ul>
-      <p class="muted small">Intentional bug: Theme switch doesn't apply until page reload.</p>
+      <div class="section-header">
+        <h2>What it includes</h2>
+        <p class="muted">Modern essentials for simple, visual task flow.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Client-side login</h3>
+          <p>Fast onboarding and demo access without external authentication.</p>
+        </article>
+        <article class="feature-card">
+          <h3>LocalStorage persistence</h3>
+          <p>Keep work state in the browser with instant, offline-friendly saves.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Drag &amp; drop workflow</h3>
+          <p>Move cards between lanes using the HTML5 Drag &amp; Drop API.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Assignee &amp; priority filters</h3>
+          <p>Quickly narrow down active work using simple filters.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card info-row">
+      <div>
+        <h2>Known behavior</h2>
+        <p class="muted">Intentional bug: Theme switch doesn't apply until page reload.</p>
+      </div>
+      <a class="btn subtle" href="board.html">Open the Board</a>
     </section>
   </main>
 </body>
